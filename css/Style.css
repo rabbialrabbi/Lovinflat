@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Gadugi;
+}
+
+div.one {
+    overflow: hidden;
+    color: white;
+    background-color: black;
+   }
+div.one h1 {
+    display: inline-block;
+    padding: 0;
+    font-size: 50px;
+}
+
+div.one p {
+    margin: 20px 5px;
+    padding: 0;
+    display: inline-block
+}
+div.one p.p1margin {
+    border-left: 2px solid white;
+    padding: 0 10px;
+}
+div.one button {
+    background-color: rgb(118,88,52);
+    border: 2px solid rgb(144,113,75);
+    padding: 5px;
+    margin: 15px;
+    width: 80px;
+    height: 40px;
+    color: white;
+}
+
+div.two {
+    overflow: hidden;
+}
+
+div.two ul {
+    padding: 20px 50px;
+    list-style-type: none;
+    clear: left;
+    overflow: hidden;
+}
+
+div.two li {
+    float: right;
+    padding: 15px;
+    margin: 0;
+    font-size: 20px;
+
+}
+div.two a {
+    display: block;
+    text-decoration: none;
+}
+div.two span {
+    margin-right: 200px;
+    font-size: 30px;
+    }
+div.two a:hover {
+    color: red;
+
+}
+div.slide {
+  background-color: rgb(54,66,78);
+  overflow: hidden;
+  width: 33.332%;
+  float: left;
+}
+article.slide {
+  max-width: 700px;
+  color: white;
+  display: inline-block;
+  padding: 20px;
+}
+article.slide h1 {
+  margin: 60px 80px 50px;
+  font-size: 28px;
+
+}
+article.slide p {
+  font-size: 20px;
+  margin-left: 80px;
+  line-height: 1.5em;
+  color: rgb(220, 220, 220);
+}
+article > button {
+  padding: 10px 30px;
+  margin: 30px 80px;
+  background-color: rgb(54,66,78);
+  border-radius:50px;
+  color: white;
+  font-size: 16px;
+  border: 2px solid rgb(220, 220, 220);
+}
+.img1 {
+  float: right;
+  margin-right: 100px;
+  padding: 60px 0;
+}
+
+.three {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(54,66,78);
+}
+
+figure {
+  position: relative;
+  width: 300%;
+  margin: 0;
+  left: 0;
+  animation: 20s slidy infinity;
+}
+
+@-moz-keyframes slidy {
+  0% {
+    left: 0%;
+  }
+  10% {
+    left: 0%;
+  }
+  12% {
+    left: -100%;
+  }
+  22% {
+    left: -100%;
+  }
+  24% {
+    left: -200%;
+  }
+  34% {
+    left: -200%;
+  }
+  36% {
+    left: -300%;
+  }
+  46% {
+    left: -300%;
+  }
+  48% {
+    left: -400%;
+  }
+  58% {
+    left: -400%;
+  }
+  60% {
+    left: -300%;
+  }
+  70% {
+    left: -300%;
+  }
+  72% {
+    left: -200%;
+  }
+  82% {
+    left: -200%;
+  }
+  84% {
+    left: -100%;
+  }
+  94% {
+    left: -100%;
+  }
+  96% {
+    left: 0%;
+  }
+}
+
+div.four {
+  background-color: rgb(84,96,108);
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+div.four p{
+  font-size: 20px;
+  padding: 20px 0px 0px 0px ;
+}
+
+div.five {
+  background-color: rgb(235, 114, 97);
+  padding: 50px;
+  color: white;
+  overflow: hidden;
+  text-align: center;
+}
+.five .uline {
+  width: 130px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 10px auto;
+}
+
+header p {
+  font-size: 18px;
+  padding: 30px 70px;
+}
+
+div.serv img {
+  border-radius: 5%;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
+}
+div.serv {
+  width: 29%;
+  float: left;
+  padding: 2%;
+}
+
+div.serv h4 {
+  padding: 30px;
+}
+
+div.serv p {
+  line-height: 1.7em;
+}
+
+div.six {
+  background-color:rgb(230, 230, 230);
+  text-align: center;
+  padding: 50px 20px 70px;
+  color: rgb(50, 50, 50);
+  overflow: hidden;
+
+}
+.six .uline {
+  width: 130px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: rgb(50, 50, 50);
+  margin: 10px auto;
+}
+img.siximg {
+  width: 350px;
+  height: 200px;
+  padding: 10px;
+}
+
+div.seven {
+  background-color:rgb(46, 162, 143);
+  text-align: center;
+  padding: 50px 20px 70px;
+  color: rgb(230, 250, 230);
+  overflow: hidden;
+  text-align: center;
+}
+
+.seven .uline {
+  width: 130px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: rgb(230, 230, 230);
+  margin: 10px auto;
+}
+
+section.seven {
+  overflow: hidden;
+}
+
+div.intro {
+  width: 250px;
+  display: inline-block;
+  padding: 20px;
+  margin-left: 25px;
+}
+
+.seven .sline {
+  width: 130px;
+  height: 1px;
+  border-radius: 25%;
+  background-color: rgb(230, 250, 230);
+  margin: 20px auto;
+}
+
+div.eight {
+  background-color: rgb(230, 230, 230);
+  padding: 50px 20px 70px;
+  color: rgb(50, 50, 50);
+  overflow: hidden;
+}
+
+.eight .uline {
+  width: 130px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: rgb(50, 50, 50);
+  margin: 10px auto;
+}
+
+.eight header {
+    padding-bottom: 30px;
+}
+
+.eight select{
+  overflow: hidden;
+}
+.lside, .rside {
+  width: 45%;
+  padding-left: 4%;
+  float: left;
+}
+.lside h4, .rside h4 {
+  padding: 50px 0 30px 0:
+}
+.rside {
+  padding-left: 20px;
+}
+
+.result {
+  height: 10px;
+  padding: 0px;
+  background-color: rgb(200, 200, 200);
+  border-radius: 10px;
+}
+.inresult {
+  height: 10px;
+  background-color: rgb(192, 114, 48);
+  border-radius: 10px;
+}
+.rside .nok { width: 60%; } 
+.rside .htc { width: 30%; }
+.rside .sam { width: 80%; }
+.rside .iph { width: 70%; }
+.rside .lgp { width: 10%; }
+
+.lside p {
+  line-height: 1.8em;
+  padding: 20px 0 0 0;
+}
+
+.rside p {
+  padding: 20px 0 15px 0;
+}
+
+div.nine {
+  background-color: rgb(84, 142, 182);
+  padding: 50px 20px 70px;
+  color: rgb(230, 230, 230);
+  overflow: hidden;
+  text-align: center;
+}
+
+.nine .uline {
+  width: 130px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: rgb(230, 230, 230);
+  margin: 10px auto;
+}
+
+.nine a {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: rgb(160, 188, 209);
+    margin-left: 20px;
+}
+
+div.ten {
+  background-color: rgb(225,108,91);
+  padding: 50px 20px 70px;
+  color: rgb(230, 230, 230);
+  overflow: hidden;
+  text-align: center;
+}
+.ten p {
+    font-size: 28px;
+    padding-bottom: 0;
+}
+
+.ten .uline {
+  width: 130px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: rgb(230, 230, 230);
+  margin: 10px auto;
+}
+
+.ten img {
+    width: 100%;
+    height: 100%;
+    margin: 30px 0 -20px 0 ;
+}
+
+div.eleven {
+  background-color: rgb(84,96,108);
+  padding: 50px 20px 70px;
+  color: rgb(230, 230, 230);
+  overflow: hidden;
+}
+
+.eleven .uline {
+  width: 130px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: rgb(230, 230, 230);
+  margin: 10px auto;
+}
+
+.eleven section {
+    max-width: 850px;
+    margin: 20px auto -10px;
+}
+
+.eleven img {
+    height: 30px;
+    width: 30px;
+    border: 3px solid white;
+    border-radius: 100%;
+    margin-left: 40px;
+    padding: 10px;
+}
+.twelve p {
+    text-align: center;
+    margin: 20px auto;
+    background-color: rgb(250, 250, 250)
+}
+.tharteen {
+    padding: 10px;
+    background-color: black;
+}
